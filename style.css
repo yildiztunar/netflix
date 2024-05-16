@@ -1,0 +1,279 @@
+html {
+    font-size: 16px;
+}
+body {
+    background-color: #181818;
+    margin: 0 auto;
+    width: 100%;
+}
+  
+.background-video {
+    /* border: red solid 0.01rem; */
+    background-image: url(assets/background.jpg);
+    background-position: center;
+    background-size: cover;
+    aspect-ratio: 16/9;
+}
+
+.banner {
+    /* border: green solid 0.01rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 5vh;
+    margin-left: 5vh;
+    margin-right: 3vh;
+}
+
+.logo-and-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.5vh;
+}
+.menu-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.menu-items a {
+    float: left;
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 0.6vh;
+    font-family: 'Roboto';
+    font-size: 0.9rem;
+    letter-spacing: 0.05vh;
+    font-weight: 500;
+}
+
+.hamburger-menu {
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+
+.search-ntf-profil {
+    /* border: red solid 0.01rem; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    color: white;
+    margin-right: 6vh;
+    font-size: 2.3vh;
+    
+}
+
+.profile-icon {
+    display: flex;
+    gap: 1vh;
+    align-items: center;
+    font-size: 2vh;
+}
+
+.profile-icon img {
+    border-radius: 0.5vh;
+}
+
+.left-and-right {
+    /* border: red solid 0.01rem; */
+    display: flex;
+}
+
+.left-information {
+    /* border: red solid 0.01rem; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 45.5vh;
+}
+
+.symbol-text {
+    /* border: red solid 0.01rem; */
+    display: flex;
+    align-items: center;
+}
+
+.symbol-text img {
+    width: 3.5vh;
+    margin-left: 5vh;
+}
+
+.symbol-text p {
+    color: rgb(184, 181, 181);
+    letter-spacing: 0.6vh;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.serie-title {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 4.5rem;
+    margin: 0vh 1vh 0vh 5vh;
+}
+
+.serie-description {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 1.5rem;
+    letter-spacing: 0.05vh;
+    margin: 0 0 0 5vh;
+    text-align:justify;
+}
+
+.play {
+    background-color: white;
+    border-radius: 0.5vh;
+    font-size: 1.4rem;
+    padding: 1.2vh 4.5vh;
+    font-family: 'Roboto';
+    font-weight: bolder;
+    margin: 1vh 1vh 5vh 5vh;
+    border: 0;
+}
+
+.more-info {
+    background: rgba(99, 99, 99, 0.8);
+    color: white;
+    border-radius: 0.5vh;
+    font-size: 1.4rem;
+    padding: 1.2vh 4vh;
+    font-family: 'Roboto';
+    border: 0;
+}
+
+.right-icons {
+    /* border: green solid 0.01rem; */
+    display: flex;
+    align-items: flex-end;
+    width: 120vw;
+    justify-content: flex-end;
+    gap: 1vh;
+}
+
+.right-icons img{
+    width: 5vh;
+}
+
+.right-icons p {
+    margin: 1.2vh 0;
+    color: white;
+    font-family: 'Roboto';
+    padding: 1vh 8vh 1vh 1vh;
+    border-left: white 0.5vh solid;
+    background: rgba(41, 41, 41, 0.5);
+    font-size: 1.5rem;
+}
+
+.sound-icon {
+    color: white;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+.todays-top-picks p,
+.continue-watching-for-name p{
+    color: rgb(219, 219, 219);
+    font-family: 'Roboto';
+    letter-spacing: 0.06vh;
+    margin: 5vh 0 1vh 5vh;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.todays-top-picks {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+.continue-watching-for-name {
+    display: flex;
+    flex-direction: column;
+}
+  
+.carousel-container {
+    display: flex;
+    width: 100%;
+}
+
+.carousel-window,
+.carousel-window2 {
+    /* border: blue solid 0.01rem; */
+    width: 100%;
+    overflow: hidden;
+}
+  
+.slides,
+.slides2{
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+}
+  
+.item{
+    flex: 0 0 auto;
+    padding: 0 0.5vh;
+}
+
+.item2{
+    flex: 0 0 auto;
+    padding: 0 0.5vh;
+}
+  
+.item-img {
+    /* border: red solid 0.01rem; */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.previous,
+.next {
+    width: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0em;
+    user-select: none;
+    cursor: pointer;
+    padding: 0 1vh;
+    color: #181818;
+}
+  
+.previous:hover,
+.next:hover {
+    transition: background-color 1000ms ease;
+    transition: color 100ms ease-in;
+    color: #ffffff;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+@media (width<=1200px) {
+   
+    html {
+        font-size: 12px;
+    }
+        
+}
+
+@media (width<=800px) {
+    html {
+        font-size: 8px;
+    }
+    .menu-items {
+        display: none;
+    }
+    .hamburger-menu {
+        display: block;
+    }
+    
+}
